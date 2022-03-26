@@ -1,0 +1,1 @@
+GAN makale gelince güncellenecek. 

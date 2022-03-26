@@ -1,0 +1,1 @@
+Ortak notebook gelince güncellenecek. 

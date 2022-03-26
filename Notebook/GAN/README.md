@@ -1,0 +1,1 @@
+GAN notebook gelince güncellenecek. 
