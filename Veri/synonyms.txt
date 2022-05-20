@@ -1,0 +1,1121 @@
+- synonym: açlık
+  examples: |
+    - aç
+
+
+- synonym: açlık reddi
+  examples: |
+    - açlığımı reddediyorum
+
+
+- synonym: ağız içinde yumru
+  examples: |
+    - ağzımda yumru
+    - ağzımda kitle
+
+
+- synonym: ağız kokusu
+  examples: |
+    - ağzım kokuyor
+    - ağzımda koku var
+
+
+- synonym: ağızda aseton kokusu
+  examples: |
+    - ağzımda aseton kokusu
+    - ağzımda aseton tadı
+
+
+- synonym: ağızda köpük
+  examples: |
+    - ağzımdan köpük
+
+
+- synonym: ağızda uyuşma
+  examples: |
+    - ağzım uyuşuyor
+    - ağzımda uyuşukluk
+
+
+- synonym: ağrısız yara
+  examples: |
+    - yaralarım ağrımıyor
+
+
+- synonym: akciğer sıvısı
+  examples: |
+    - akciğerimde sıvı
+
+
+- synonym: akne
+  examples: |
+    - sivilce
+
+
+- synonym: alt karın ağrısı
+  examples: |
+    - karnımın alt bölgesi ağrıyor
+    - karnımın alt bölgesinde ağrı
+
+
+- synonym: artan gözyaşı
+  examples: |
+    - gözyaşımda artış
+    - gözlerimde yaş
+
+
+- synonym: asimetrik ben
+  examples: |
+    - benimde asimetri 
+
+
+- synonym: ateş
+  examples: |
+    - ateşim
+
+
+- synonym: ayakların istemsiz dönmesi
+  examples: |
+    - ayaklarımda istemsiz hareket
+    - ayağımda istemsiz hareket
+
+
+- synonym: bacak ağrısı
+  examples: |
+    - bacağım ağrıyor
+    - bacaklarımda ağrı
+
+
+- synonym: bağırsak tıkanması
+  examples: |
+    - tıkanmış bağırsaklar
+
+
+- synonym: balgam
+  examples: |
+    - balgamım
+
+
+- synonym: baş ağrısı
+  examples: |
+    - başım ağrıyor
+    - başımda ağrı
+
+
+- synonym: baş dönmesi
+  examples: |
+    - başım dönüyor
+
+
+- synonym: bayılma
+  examples: |
+    - bayıldım
+
+
+- synonym: bel ağrısı
+  examples: |
+    - belim ağrıyor
+
+
+- synonym: ben kanaması
+  examples: |
+    - benlerim kanıyor
+    - benim kanıyor
+
+
+- synonym: ben sayısında artış 
+  examples: |
+    - benlerim arttı
+
+
+- synonym: bilinç bulanıklığı
+  examples: |
+    - bilincim açık değil
+    - bulanık bilinç
+    - bilincim bulanık
+
+
+- synonym: boğaz ağrısı
+  examples: |
+    - boğazım ağrıyor
+    - boğazımda ağrı
+
+
+- synonym: boğazda yanma
+  examples: |
+    - boğazım yanıyor
+    - boğazımda yanma hissi
+
+
+- synonym: boyda kısalma
+  examples: |
+    - boyum kısaldı
+
+
+- synonym: boynun istemsiz dönmesi 
+  examples: |
+    - boynum istemsiz dönüyor
+
+
+- synonym: boyunda yumru
+  examples: |
+    - boynumda kitle
+    - boynumda sertlik
+    - boyun kitlesi
+
+
+- synonym: böbrek yetmezliği
+  examples: |
+    - böbrek yetersizliği
+
+
+- synonym: böbrekte yumru
+  examples: |
+    - böbreklerde kitle
+    - böbrekte kitle
+
+
+- synonym: bulanık görme
+  examples: |
+    - bulanık görüyorum
+    - görüşüm net değil
+
+
+- synonym: bulantı
+  examples: |
+    - midem bulanıyor
+    - bulantım
+
+
+- synonym: burun akıntısı
+  examples: |
+    - burnum akıyor
+
+
+- synonym: burun kanaması
+  examples: |
+    - burnum kanıyor
+
+
+- synonym: burunda mukus
+  examples: |
+    - burnumda mukus
+    - burnumda salgı
+
+
+- synonym: ciltte döküntü
+  examples: |
+    - cildim dökülüyor
+    - cildimde döküntüler
+    - derimde döküntüler
+
+
+- synonym: ciltte kabarcık
+  examples: |
+    - cildimde kabarcık
+
+
+- synonym: ciltte kaşıntı
+  examples: |
+    - cildim kaşınıyor
+
+
+- synonym: ciltte kırmızlık
+  examples: |
+    - kırmızı cilt
+    - cildimde kırmızılık
+
+
+- synonym: ciltte kuruluk
+  examples: |
+    - kuru cilt
+    - cildimde kuruluk
+    - kuru bir cilt
+
+
+- synonym: ciltte mavilik
+  examples: |
+    - cildimde mavilik
+    - cildim mavi
+    - mavi cilt
+
+
+- synonym: ciltte sarılık
+  examples: |
+    - sarı cilt
+
+
+- synonym: ciltte yanma
+  examples: |
+    - cildim yanıyor
+
+
+- synonym: çıban
+  examples: |
+    - apse
+
+
+- synonym: çınlama
+  examples: |
+    - kulak çınlaması
+
+
+- synonym: çift görme
+  examples: |
+    - çift görüyorum
+
+
+- synonym: deride su toplanması
+  examples: |
+    - derimde su kabarcığı
+    - deride su kabarcığı
+    - derimde su kabarcıkları
+
+
+- synonym: dışkı rengide değişiklik
+  examples: |
+    - dışkım farklı renkte
+    - dışkımın rengi farklı
+
+
+- synonym: dışkıda kan
+  examples: |
+    - dışkımda kan
+
+
+- synonym: diş kenetlenme
+  examples: |
+    - dişlerim kenetleniyor
+
+
+- synonym: dişlerde çürüme
+  examples: |
+    - çürüyor
+    - çürüklerim
+    - çürüğüm
+
+
+- synonym: diz ağrısı
+  examples: |
+    - dizlerim ağrıyor
+    - dizimde ağrı
+
+
+- synonym: diz kilitlenmesi
+  examples: |
+    - dizlerim kitlendi
+
+
+- synonym: dizde çıtlama sesi
+  examples: |
+    - dizimde çıtlama
+
+
+- synonym: donuk bakış
+  examples: |
+    - bakışlarda donukluk
+    - dalgınlık
+    - dalgın bakışlar
+    - bakışlarda dalgınlık
+
+
+- synonym: duyu kaybı
+  examples: |
+    - duyularımda kayıp
+
+
+- synonym: düşük kan basıncı
+  examples: |
+    - kan basıncım düşük
+
+
+- synonym: düşük tansiyon
+  examples: |
+    - tansiyonum düştü
+
+
+- synonym: düzensiz kalp ritmi
+  examples: |
+    - kalbim düzensiz atıyor
+    - kalp atışımda düzensizlik
+    - çarpıntı
+    - aritmi
+
+
+- synonym: eklem ağrısı
+  examples: |
+    - eklemlerim ağrıyor
+
+
+- synonym: eklem boşalması
+  examples: |
+    - eklemlerde boşalma
+    - eklemlerim boşaldı
+
+
+- synonym: ense ağrısı
+  examples: |
+    - ensemde ağrı
+    - ensem ağrıyor
+
+
+- synonym: felç
+  examples: |
+    - inme
+
+
+- synonym: gaz
+  examples: |
+    - gazım 
+
+
+- synonym: gece görüşünde düşüş
+  examples: |
+    - gece görüşünde kayıp
+
+
+- synonym: gevşek diş
+  examples: |
+    - dişlerim gevşek
+    - dişim gevşek
+
+
+- synonym: göğüs ağrısı
+  examples: |
+    - göğsüm ağrıyor
+
+
+- synonym: göğüste baskı
+  examples: |
+    - göğsümde baskı
+    - göğsümde sıkışıklık
+
+
+- synonym: görme kaybı
+  examples: |
+    - görmede zorluk
+
+
+- synonym: göz çevresinde basınç
+  examples: |
+    - gözlerimde basınç
+    - göz basıncı
+
+
+- synonym: göz kararması
+  examples: |
+    - gözlerimde karartı
+
+
+- synonym: göz kaşıntısı
+  examples: |
+    - gözlerim kaşınıyor
+
+
+- synonym: gözde kızarıklık
+  examples: |
+    - gözümde kızarma
+    - gözüm kızardı
+
+
+- synonym: gözde kitle
+  examples: |
+    - gözümde kitle
+
+
+- synonym: gözlerin ani ve aşırı kırpılması
+  examples: |
+    - gözlerim çok kırpışıyor
+    - gözlerimde ani kırpılmalar
+
+
+- synonym: gündüz uyku hali
+  examples: |
+    - uykuluyum
+    - uykum
+
+
+- synonym: hafıza kaybı
+  examples: |
+    - hafızamda kayıp
+
+
+- synonym: halüsinasyon
+  examples: |
+    - sanrı
+    - sanrılar
+
+
+- synonym: hapşırma
+  examples: |
+    - hapşırıyorum
+
+
+- synonym: hareketlerde zorlanma
+  examples: |
+    - yavaş hareket ediyorum
+    - hareketlerde zorlanma
+    - fiziksel işlev kaybı
+
+
+- synonym: hassas cilt
+  examples: |
+    - cildimde hassasiyet
+
+
+- synonym: hırıltı
+  examples: |
+    - hırıltılı ses
+    - hırıldama
+
+
+- synonym: horlama
+  examples: |
+    - horluyorum
+    - horlamam
+
+
+- synonym: ışık hassasiyeti
+  examples: |
+    - ışığa karşı hassasiyet
+
+
+- synonym: idrar kaçırma
+  examples: |
+    - idrar kaçırıyorum
+    - altıma yapıyorum
+
+
+- synonym: idrar yapamama
+  examples: |
+    - idrara çıkamıyorum
+    - idrar yapamıyorum
+
+
+- synonym: idrarda acı
+  examples: |
+    - idrarımda acı
+    - idrar yaparken acı
+
+
+- synonym: idrarda kan
+  examples: |
+    - idrarımda kan
+    - idrarım kanlı
+    - kanlı idrar
+    - kanlı bir idrar
+
+
+- synonym: idrarda taş
+  examples: |
+    - idrarımda taş
+
+
+- synonym: idrarda yanma
+  examples: |
+    - idrara çıkarken yanma hissi
+
+
+- synonym: iris renginde değişiklik
+  examples: |
+    - göz renginde değişiklik
+    - göz rengim değişti
+
+
+- synonym: ishal
+  examples: |
+    - ishalim 
+
+
+- synonym: işitme kaybı
+  examples: |
+    - işitmede zorluk
+
+
+- synonym: işitme problemleri
+  examples: |
+    - duymakta zorluk
+    - duymada zorluk
+    - kulaklarım duymuyor
+    - duymuyorum
+    - ses işitmiyorum
+
+
+- synonym: iştahsızlık
+  examples: |
+    - iştahım yok
+
+
+- synonym: iyileşmeyen ağız yarası
+  examples: |
+    - ağzımdaki yara
+    - ağzımda yara
+    - ağız yarası
+
+
+- synonym: iyileşmeyen yara
+  examples: |
+    - yaralarım iyileşmiyor
+    - yaraların geç iyileşmesi
+
+
+- synonym: kabız
+  examples: |
+    - dışkı yapamıyorum
+    - dışkı yapmakta zorluk
+
+
+- synonym: kafada bölgesel saç kaybı
+  examples: |
+    - saç kaybı
+    - kafamda saç kaybı
+
+
+- synonym: kalp atış hızında artış 
+  examples: |
+    - kalbim hızlı atıyor
+
+
+- synonym: kalp yetmezliği
+  examples: |
+    - kalp yetersizliği
+
+
+- synonym: kamburluk
+  examples: |
+    - kambur
+
+
+- synonym: kanlı balgam
+  examples: |
+    - balgamda kan 
+    - balgamımda kan
+
+
+- synonym: kanlı ishal
+  examples: |
+    - ishalimde kan
+
+
+- synonym: kanlı öksürük
+  examples: |
+    - öksürüğümde kan
+    - öksürdüğümde kan
+
+
+- synonym: kansızlık
+  examples: |
+    - kansızlığım
+
+
+- synonym: karın ağrısı
+  examples: |
+    - karnım ağrıyor
+    - karnımda ağrı
+
+
+- synonym: karında sıvı
+  examples: |
+    - karnımda sıvı
+
+
+- synonym: kas ağrısı
+  examples: |
+    - kaslarım ağrıyor
+    - kasım ağrıyor
+
+
+- synonym: kas güçsüzlüğü
+  examples: |
+    - kaslarımda güçsüzlük
+    - güçsüz kas
+
+
+- synonym: kasık ağrısı
+  examples: |
+    - kasıklarım ağrıyor
+
+
+- synonym: kasılma
+  examples: |
+    - kasılıyorum
+    - kasılmam
+
+
+- synonym: kaşıntı
+  examples: |
+    - kaşınıyorum
+    - kaşıntım 
+
+
+- synonym: kemik kırıkları
+  examples: |
+    - kemiklerim kırılıyor
+    - kemiklerimde kırılmalar
+    - kemiklerimde kırılma
+
+
+- synonym: kırmızı çatlaklar
+  examples: |
+    - derimde kırmızı çatlaklar
+    - derimde çatlak
+    - deride çatlak
+    - ciltte çatlak
+
+
+- synonym: kırmızı kahverengi lekeler
+  examples: |
+    - cillte kırmızı
+    - ciltte kahverengi
+
+
+- synonym: kırmızı yüz
+  examples: |
+    - yüzümde kırmızılık
+
+
+- synonym: kısık ses
+  examples: |
+    - sesim kısıldı
+
+
+- synonym: kilo kaybı
+  examples: |
+    - zayıladım
+    - zayıflama
+    - kilom azaldı
+    - kiloda azalış
+    - kilo azalışı
+
+
+- synonym: koku hassasiyeti
+  examples: |
+    - kokuya karşı hassasiyet
+
+
+- synonym: kol ağrısı
+  examples: |
+    - kolum ağrıyor
+
+
+- synonym: kolay morarma
+  examples: |
+    - kolayca morluk
+    - kolay morluk
+
+
+- synonym: konuşma güçlüğü
+  examples: |
+    - konuşmakta güçlük
+    - konuşmakta zorluk
+    - dil becerilerimde kayıp
+    - dil becerimde kayıp
+
+
+- synonym: koyu cilt
+  examples: |
+    - ciltte koyuluk
+    - cildimde koyu
+    - cildim koyu
+    - derimde koyuluk
+    - derim koyu
+    - derimde koyu
+
+
+- synonym: koyu renkli idrar
+  examples: |
+    - idrarım koyu renkte
+    - idrarım koyu renkli
+
+
+- synonym: kötü kokulu idrar
+  examples: |
+    - idrarım kötü kokuyor
+
+
+- synonym: kramp
+  examples: |
+    - kasılma
+
+
+- synonym: kulak ağrısı
+  examples: |
+    - kulağım ağrıyor
+
+
+- synonym: kulak akıntısı
+  examples: |
+    - kulağımda sıvı
+    - kulakta sıvı
+    - kulakta akıntı
+
+
+- synonym: kulak uğultusu
+  examples: |
+    - uğultu
+    - kulağımda uğultu
+
+
+- synonym: kuru ağız
+  examples: |
+    - ağzım kuru
+    - ağzımda kuruluk
+    - kuru bir ağız
+
+
+- synonym: kusma
+  examples: |
+    - kusuyorum
+
+
+- synonym: mide ekşimesi
+  examples: |
+    - midem ekşiyor
+    - ekşi midem
+    - ekşi mide
+
+
+- synonym: midedeki gıdaların ağza gelmesi
+  examples: |
+    - midem ağzıma geldi
+    - mide sıvım ağzıma
+
+
+- synonym: nefes darlığı
+  examples: |
+    - nefesim daralıyor
+    - solunum sıkıntısı
+    - nefes almakta güçlük
+    - nefes almakta zorluk
+
+
+- synonym: nöbet
+  examples: |
+    - nöbetim
+
+
+- synonym: omuz ağrısı
+  examples: |
+    - omzum ağrıyor
+    - omzumda ağrı
+
+
+- synonym: omuz hareketlerinin kısıtlanması
+  examples: |
+    - omzum oynamıyor
+    - omzumu oynatamıyorum
+
+
+- synonym: omuz morarması
+  examples: |
+    - omzumda morluk
+    - omuzda morluk
+    - omuz bölgesinde morluk
+
+
+- synonym: omuzda şekil bozukluğu
+  examples: |
+    - omzum yamuk
+
+
+- synonym: orta kulak enfeksiyonu
+  examples: |
+    - orta kulağımda enfeksiyon
+    - kulakta enfeksiyon
+    - kulak enfeksiyonu
+
+
+- synonym: öğün atlamak
+  examples: |
+    - öğün atlıyorum
+
+
+- synonym: öksürük
+  examples: |
+    - öksürüyorum
+
+
+- synonym: reflü
+  examples: |
+    - reflüm
+
+
+- synonym: rektal kanama
+  examples: |
+    - rektal bölgemde kan
+    - rektal bölgede kan
+
+
+- synonym: ruh hali değişimleri
+  examples: |
+    - değişken ruh hali
+
+
+- synonym: saç dökülmesi
+  examples: |
+    - saçım dökülüyor
+    - saç dökülmem
+
+
+- synonym: sarkık göz kapakları
+  examples: |
+    - sarkmış göz kapağı
+
+
+- synonym: ses hassasiyeti
+  examples: |
+    - sese karşı hassasiyet
+
+
+- synonym: seslerin derinden gelmesi
+  examples: |
+    - boğuk ses
+
+
+- synonym: sık idrar
+  examples: |
+    - idrara sık
+    - sık bir idrar
+    - tuvalete sık
+
+
+- synonym: sırt ağrısı
+  examples: |
+    - sırtım ağrıyor
+    - sırtımda ağrı
+
+
+- synonym: sıvı dışkı
+  examples: |
+    - dışkım sıvı
+
+
+- synonym: solunum durması
+  examples: |
+    - solunumda aksama
+
+
+- synonym: su korkusu
+  examples: |
+    - sudan korkyorum
+    - su beni korkutuyor
+
+
+- synonym: sussuzluk
+  examples: |
+    - susama
+    - su içme isteğim
+    - su içme isteği
+
+
+- synonym: sürekli diyet yapma
+  examples: |
+    - sürekli diyet yapıyorum
+
+
+- synonym: şiş akciğer
+  examples: |
+    - akciğerimde şişlik
+    - ciğerimde şişlik
+    - ciğerim şiş
+
+
+- synonym: şiş ayak
+  examples: |
+    - ayaklarım şişti
+    - ayaklarımda şişlik 
+
+
+- synonym: şiş bacak
+  examples: |
+    - bacaklarımda şişlik
+    - bacaklarım şiş
+
+
+- synonym: şiş bademcik
+  examples: |
+    - bademciklerim şişti
+
+
+- synonym: şiş bel
+  examples: |
+    - belde şişlik
+    - belimde şişlik
+
+
+- synonym: şiş boğaz
+  examples: |
+    - boğazımda şişlik
+
+
+- synonym: şiş diz
+  examples: |
+    - dizlerde şişlik
+    - şiş dizler
+
+
+- synonym: şiş dudak
+  examples: |
+    - dudaklarım şişti
+    - şiş bir dudak
+
+
+- synonym: şiş eklem
+  examples: |
+    - eklemlerde şişlik
+
+
+- synonym: şiş göz
+  examples: |
+    - gözlerim şişti
+    - gözlerim şiş
+    - gözüm şişti
+    - gözümde şişlik
+
+
+- synonym: şiş göz kapağı
+  examples: |
+    - göz kapağım şişti
+    - göz kapağında şişme
+
+
+- synonym: şiş karın
+  examples: |
+    - karında şişlik
+    - karnımda şişlik
+
+
+- synonym: şiş lenf bezi
+  examples: |
+    - lenf bezlerim şişti
+    - lenf bezlerinde şişlik
+    - lenf bezlerimde şişlik
+
+
+- synonym: şiş mide
+  examples: |
+    - midem şişti
+    - midemde şişkinlik
+
+
+- synonym: şiş tiroid bezi
+  examples: |
+    - tiroid bezimde şişlik
+
+
+- synonym: şiş yanak
+  examples: |
+    - yanağımda şişlik
+    - yanaklarımda şişlik
+
+
+- synonym: şişkinlik
+  examples: |
+    - şiş
+
+
+- synonym: terleme
+  examples: |
+    - terliyorum
+
+
+- synonym: tıkanık burun
+  examples: |
+    - burnum tıkalı
+
+
+- synonym: tıkanık kulak
+  examples: |
+    - kulağım tıkalı
+    - kulakta tıkanıklık
+    - kulağımda tıkanıklık
+
+
+- synonym: titreme
+  examples: |
+    - titriyorum
+    - üşüyorum
+
+
+- synonym: tükürük salgısında artış
+  examples: |
+    - tükürük artışı
+    - tükürük sıvım arttı
+    - tükürüğüm arttı
+
+
+- synonym: uyku atakları
+  examples: |
+    - uykumda ataklar
+    - uykumda atak
+
+
+- synonym: uyku felci
+  examples: |
+    - uykumda felç
+    - uykumda inme
+
+
+- synonym: uykuda huzursuzluk
+  examples: |
+    - uykum çok bölündü
+    - uykum bölündü
+
+
+- synonym: uykusuzluk
+  examples: |
+    - uykum var
+
+
+- synonym: uyuşma
+  examples: |
+    - hissizleşme
+
+
+- synonym: yağ artışı
+  examples: |
+    - yağ miktarım arttı
+
+
+- synonym: yavaş yemek
+  examples: |
+    - yemekleri yavaş
+
+
+- synonym: yoğun kan
+  examples: |
+    - kanımda yoğunluk
+    - kanım yoğun
+
+
+- synonym: yutma güçlüğü
+  examples: |
+    - yutmakta güçlük 
+    - yutkunma sıkıntısı
+    - yutkunamıyorum
+    - yutkunamamak
+
+
+- synonym: yüksek göz içi basıncı
+  examples: |
+    - gözümde basınç 
+    - göz basıncı
+
+
+- synonym: yüksek tansiyon
+  examples: |
+    - tansiyonum yükseldi
+
+
+- synonym: yürüme güçlüğü
+  examples: |
+    - yürüyemiyorum
+    - yürümekte zorluk
+    - yürüme zorluğu
+
+
+- synonym: yüz ağrısı
+  examples: |
+    - yüzümde basınç
+
+
