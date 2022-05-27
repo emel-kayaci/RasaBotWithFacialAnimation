@@ -1,0 +1,59 @@
+version: "2.0"
+rules:
+- rule: Kullanici veda ettiginde vedalas
+  steps:
+  - intent: veda
+  - action: utter_veda
+
+- rule: Kullanıcı merhaba dediğinde selamlaş
+  steps:
+  - intent: selamlama
+  - action: utter_selamlama
+
+- rule: Randevu formunu aktive et
+  steps:
+  - intent: randevu_alma
+  - action: randevu_form
+  - active_loop: randevu_form
+
+- rule: Randevu formunu veri tabanına ekle
+  condition: 
+  - active_loop: randevu_form
+  steps:
+  - action: randevu_form
+  - active_loop: null 
+  - slot_was_set:
+    - requested_slot: null
+  - action: form_onay
+  - intent: onay
+  - action: formu_kaydet
+  
+- rule: Randevu formu iptali ve sıfırlanması
+  condition: 
+  - active_loop: randevu_form
+  steps:
+  - active_loop: null 
+  - slot_was_set:
+    - requested_slot: null
+  - action: form_onay
+  - intent: form_iptal
+  - action: utter_form_iptal
+  - action: action_deactivate_form
+  - action: formu_sıfırla
+
+- rule: Kullanıcı istediği zaman formu iptal edebilir
+  condition: 
+  - active_loop: randevu_form
+  steps:
+  - action: randevu_form
+  - intent: form_iptal
+  - action: utter_form_iptal
+  - action: action_deactivate_form
+  - active_loop: null
+  - action: formu_sıfırla
+
+- rule: Chitchat cevap ver
+  steps:
+  - intent: chitchat
+  - action: utter_chitchat
+

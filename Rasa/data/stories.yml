@@ -1,0 +1,24 @@
+version: "2.0"
+stories:
+- story: semptomlardan tanı koy
+  steps:
+  - intent: semptom_açıkla                       
+  - action: tanı_koy
+
+- story: randevu sorgulama
+  steps:
+  - intent: randevu_sorgula
+  - action: utter_ask_number
+  - intent: numara_ver
+  - slot_was_set:
+    - number: 123
+  - action: numara_sorgula
+  - action: randevu_bilgisi_getir
+
+- story: hastalık bilgisi sorgulama
+  steps:
+  - intent: hastalik_bilgisi_sor
+  - slot_was_set:
+      - hastalik: grip
+  - action: hastalik_acikla
+

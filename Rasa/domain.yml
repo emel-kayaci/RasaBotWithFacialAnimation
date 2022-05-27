@@ -1,0 +1,134 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false
+
+intents:
+  - selamlama
+  - veda
+  - onay
+  - reddet
+  - form_iptal
+  - randevu_alma
+  - semptom_açıkla
+  - randevu_sorgula
+  - numara_ver
+  - chitchat
+  - hastalik_bilgisi_sor
+  
+entities:
+  - semptom
+  - hastalik
+
+slots:
+  isim:
+    type: any
+  number:
+    type: any
+  date:
+    type: any
+  randevu_not:
+    type: any
+  semptom:
+    type: list
+  hastalik:
+    type: any
+
+responses:
+  utter_selamlama:
+  - text: Merhaba, size nasıl yardımcı olabilirim?
+  - text: İyi günler, sizin için ne yapabilirim?
+  - text: İyi günler, size nasıl yardımcı olabilirim?
+  utter_veda:
+  - text: Görüşürüz, sağlıklı günler dileriz!
+  - text: Görüşürüz, kendinize iyi bakın!
+  utter_form_iptal:
+  - text: Teşekkürler o zaman randevu talebinizi iptal ediyorum. Size başka nasıl yardımcı olabilirim?
+  - text: O halde randevu alma işleminizi iptal ediyorum. Yardımcı olabileceğim başka konu var mı?
+  utter_ask_isim:
+  - text: Randevu kaydınızı oluşturmam için size birkaç soru sormam gerekiyor. Öncelikle isim ve soy isminizi öğrenebilir miyim?
+  - text: Randevu kaydınızı oluşturmam için bazı bilgilere ihtiyacım var. Öncelikle isim ve soy isminizi söyler misiniz?
+  utter_ask_number:
+  - text: 10 hanelik telefon numaranızı öğrenebilir miyim?
+  utter_ask_date:
+  - text: Sayın {isim}, randevunuzu hangi gün ve saate almak istersiniz?
+  - text: Teşekkürler {isim}. Ne zaman müsait olduğunuzu öğrenebilir miyim?
+  - text: Teşekkür ederim {isim}. Müsait olduğunuz gün ve saati öğrenebilir miyim?
+  utter_ask_randevu_not:
+  - text: Randevunuz için ek bir notunuz varsa yazabilir misiniz?
+  - text: Randevu için bir notunuz bulunuyor mu?
+  utter_chitchat/adres_sorgula:
+  - text: Adresim Kazımdirik mahallesi Üniversite caddesi numara 9'dur. Ofisim İzmir'in Bornova ilçesindedir.
+  - text: İzmir'in Bornova ilçesinde yer almaktayım. Ofisim Bornova metro istasyonundan 100 metre ilerdedir.
+  utter_chitchat/telefon_sorgula:
+  - text: Telefon numaram 0533 123 12 12.
+  - text: Telefon numaram 0533 123 12 12. Daha detaylı bilgiler almak için bana direkt ulaşabilirsiniz.
+  utter_chitchat/bot_sorgula:
+  - text: Ben sizin sanal doktorunuzum.
+  - text: Ben sanal doktorum. Size istediğiniz konuda yardımcı olabilirim.
+  - text: Ben sizin internetteki doktorunuzum.
+  utter_chitchat/hatır_sormak:
+  - text: İyiyim, teşekkür ederim. Umarım siz de iyisinizdir.
+  - text: İyiyim. Umarım sizin de keyfiniz yerindedir.
+  - text: Sorduğunuz için teşekkürler. İyiyim, umarım sizler de iyisinizdir.
+  utter_chitchat/saka_sor:
+  - text: Doktor ameliyattan sonra keman çalabilecek miyim? Evet tabiki. Harika! Daha önce hiç yapamadım!
+  - text: Bir chatbot neden doktora gider? Virüs kaptığı için.
+  - text: Doktor Ali'ye bir at kadar sağlıklısın der. Ali sevinir fakat doktor böbrek taşı olan bir at der.
+  - text: Doktor test sonuçlarım hazır mı çünkü meraktan ölüyorum.
+  utter_chitchat/yas_sorma:
+  - text: Ne genç ne de yaşlıyım diyebilirim.
+  - text: Ortalama bir insan yaşındayım.
+  utter_chitchat/yardim:
+  - text: Size randevu işlemleriniz konusunda yardım edebilirim. Ayrıca hastalığınıza dair semptomlarınız varsa bana söylemeniz yeterli, sizin için en iyi tahmini yapmaya çalışacağım.
+  - text: Randevu işlemleri, semptomlardan hastalık tahmini, sağlıklı yaşam için öneriler ve çok daha fazlası için size yardım edebilirim.
+  utter_chitchat/oneri:
+  - text: Aktif bir yaşam tarzı, sadece bedeninizi destekleyip güçlendirmez, ruhunuza yerleşmeye çalışan stres dikenlerinden, depresyon virüslerinden, kaygı yüklemelerinden de kolayca uzaklaşmanızı sağlar
+  - text: Yaşınız ilerledikçe sadece ihtiyacınız kadar yiyip için. Yemek için yaşamayı bırakın, yaşamak için yiyin.
+  - text: Güçlü bir bağışıklığın sadece beslenmeye değil, uykuya, egzersize, huzura ve dinlenmeye de ihtiyacı olduğunu bir kenara not edin.
+  - text: Her fırsatta kaygıyı, endişeyi, gerginliği ve öfkeyi de törpülemeye çalışın.
+  - text: Her ne olursa olsun uykunuzdan fedakârlık etmeyin. Uyku sorunlarınız varsa bir an önce düzeltin. 6 saatten az, 9 saatten fazla uyumayın.
+  - text: Doktorunuz önermeden hiçbir ilacı yutmayın. Herhangi bir sağlık sorununun çözümünde “İlaçsız bir çözüm de var mı?” sorusuna cevap arayın.
+  - text: D vitamininizi izleyin, 70-100 aralığında tutmaya gayret edin.
+  - text: Fiziksel aktivitenizi arttırın. Fiziksel aktivitenin artırılması vücudun insüline karşı duyarlılığını da artırır.
+
+actions:
+  - utter_ask_isim
+  - utter_ask_number
+  - utter_ask_date
+  - utter_ask_randevu_not
+  - formu_kaydet
+  - formu_sıfırla
+  - form_onay
+  - tanı_koy
+  - randevu_bilgisi_getir
+  - validate_randevu_form
+  - numara_sorgula
+  - hastalik_acikla
+  - action_default_ask_affirmation
+
+forms:
+  randevu_form:
+    isim:
+    - entity: isim
+      type: from_text
+      influence_conversation: false
+      not_intent: form_iptal
+    number:
+    - entity: number
+      type: from_text
+      influence_conversation: false
+      not_intent: form_iptal
+    date:
+    - entity: date
+      type: from_text
+      influence_conversation: false
+      not_intent: form_iptal
+    randevu_not:
+    - entity: randevu_not
+      type: from_text
+      influence_conversation: false
+    
+e2e_actions: []
