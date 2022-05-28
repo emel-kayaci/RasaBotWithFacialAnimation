@@ -67,6 +67,6 @@ https://user-images.githubusercontent.com/43893190/170813976-a88f10e5-6623-4284-
 
 ## Geliştiriciler
 
-[Mehmet Anıl Taysi](https://github.com/MehmetAnil) - anil_taysi@hotmail.com
+[Mehmet Anıl Taysi](https://github.com/MehmetAnil) - aniltaysi@gmail.com
 
 [Emel Kayacı](https://github.com/emel-kayaci) - kayaciemel18@gmail.com
