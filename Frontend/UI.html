@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Dijital Doktorunuz</title>
+</head>
+
+<body>
+    <div style="width: 100%; text-align: center;">
+        <h1 style="text-align: center; font-family: 'Bahnschrift Light'; color:#37393E">
+            Dijital Doktorum Uygulamasına Hoş Geldiniz!
+        </h1>
+        <video id="botVideo" width="256" height="256">
+            <source src="osman_pred_fls_tr-TR_audio_embed.mp4" type="video/mp4">
+        </video>
+        <div id="chatcontainer" style="height: 320px; width: 75%; margin: auto;">
+            <div class="message-container" class="center">
+                <div class="message bot-message">Merhaba! Ben doktorunuz Prof. Dr. Osman Müftüoğlu. </div>
+            </div>
+        </div>
+        <div id="messageinput" style="width: 75%; margin:0 auto;">
+            <input type="text" id="inputbox" name="userinput" onkeyup="enterListener(event)" placeholder="Doktor ile iletişime geçmek için yazınız...">
+        </div>
+    </div>
+
+<script>
+
+const SOCKETIO_URL = 'http://localhost:4000';
+const CHAT_BASE_URL = 'http://localhost:5000'
+const DOWNSAMPLING_WORKER = './downsampling_worker.js';
+
+const addBotMessage = function(message) {
+    var template = `<div class="message-container"><div class="message bot-message">${message}</div></div>`
+    var messageContainer = document.getElementById('chatcontainer');
+    messageContainer.innerHTML = messageContainer.innerHTML + template;
+    messageContainer.scrollTop = messageContainer.scrollHeight;
+}
+
+const addHumanMessage = function(message) {
+    var template = `<div class="message-container"><div class="message human-message" style="margin-left:auto">${message}</div></div>`
+    var messageContainer = document.getElementById('chatcontainer');
+    messageContainer.innerHTML = messageContainer.innerHTML + template;
+    messageContainer.scrollTop = messageContainer.scrollHeight;
+}
+
+const doTextRequest = function(message) {
+    return axios.post(`${CHAT_BASE_URL}/chat`, {
+        query: message
+    });
+}
+
+const videoPlay = function(){
+    var vid = document.getElementById('botVideo');
+    vid.autoplay = true;
+    vid.load();
+    };
+const enterListener = function(e) {
+    if (e.keyCode === 13) {
+        // e.preventDefault();
+        var inputData = document.getElementById("inputbox");
+        if (inputData.value !== "") {
+            addHumanMessage(inputData.value);
+            doTextRequest(inputData.value)
+            .then(function (res) {
+                res.data.forEach(printFunction);
+                function printFunction(value,index,array)
+                {
+                    addBotMessage(value.reply);
+                    videoPlay();
+                };
+            }).catch(function (err) {
+                console.error('Something went wrong');
+                console.error(err);
+            });
+        }
+        inputData.value = "";
+    }
+}
+
+let shouldStop = true;
+let stopped = true;
+</script>
+</body>
+</html>
