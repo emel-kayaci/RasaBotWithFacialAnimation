@@ -46,6 +46,8 @@ https://user-images.githubusercontent.com/43893190/170813959-396104be-e9fe-434f-
 
 ## Kullanım
 
+Aşağıdaki kodları çalıştırmadan önce lütfen [MakeItTalk](https://github.com/yzhou359/MakeItTalk) kütüphanesini indiriniz.
+
 ```python
 # Sırasıyla aşağıdaki komutları terminal üzerinden çalıştırın, komutları çalıştırmadan önce 
 # virtual env aktive ediniz. 
