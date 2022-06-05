@@ -1,4 +1,4 @@
-# Bitirme Tezi 2022 - Tıp Alanında Doğal Dil İşleme Destekli Dijital İkiz Tasarımı
+# Tıp Alanında Doğal Dil İşleme Destekli Dijital İkiz Tasarımı (GBYF Yarışması Eğitim, Eğlence ve Oyun kategorisi Ege Bölgesi 1.si)
 
 Projemizde gerçek yüz (meslek dallarında önemli kişiler veya kahramanlar vb.) içeren hareketli bir görsel aracılığı ile yapay zekanın ürettiği söylemleri mimikleri, dudak hareketleri ve ses ile karşıya aktarmayı sağlayan derin öğrenme tabanlı bir sistem geliştirilmiştir.
 
