@@ -4,6 +4,12 @@ Projemizde gerçek yüz (meslek dallarında önemli kişiler veya kahramanlar vb
 
 Kullanıcıya yalnızca metinsel dönüt vermek yerine bu dönütün gerçek bir insan yüzüyle de desteklenmesi, konuşmanın çok daha etkileyici ve motive edici olmasını sağlamıştır.
 
+## Geliştiriciler
+
+[Mehmet Anıl Taysi](https://github.com/MehmetAnil) - aniltaysi@gmail.com
+
+[Emel Kayacı](https://github.com/emel-kayaci) - kayaciemel18@gmail.com
+
 https://user-images.githubusercontent.com/43893190/170813959-396104be-e9fe-434f-978d-08cf0cd02cd2.mp4
 
 ## Özgün Değer
@@ -65,10 +71,3 @@ python -m http.server
 ## Kullanım Örneği
 
 https://user-images.githubusercontent.com/43893190/170813976-a88f10e5-6623-4284-a3af-5217d69e7bdc.mp4
-
-
-## Geliştiriciler
-
-[Mehmet Anıl Taysi](https://github.com/MehmetAnil) - aniltaysi@gmail.com
-
-[Emel Kayacı](https://github.com/emel-kayaci) - kayaciemel18@gmail.com
